@@ -103,12 +103,7 @@ body {
 #tools img {
     height: 100px;
     width: 100px;
-    border-radius: 100px;
     transition: all .2s ease;
-}
-
-#tools img:hover {
-    box-shadow: 1px 3px 30px 5px #A8415B;
 }
 
 #contact-form {
@@ -121,8 +116,8 @@ body {
 }
 
 .social-logo {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     transition: all .3s ease;
 }
 
