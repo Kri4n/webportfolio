@@ -48,6 +48,10 @@ body {
     box-shadow: inset 0px 0px 0px 30px #A8415B;
 }
 
+#main-nav li a.active {
+    box-shadow: inset 0px 0px 0px 30px #A8415B;
+}
+
 .heading-frame {
     display: grid;
     grid-template-columns: max-content auto;
@@ -80,7 +84,6 @@ body {
 .btn-css:hover {
     background-color: white;
     color: #A8415B;
-    border: 3px solid #A8415B;
 }
 
 #projects img {
