@@ -73,6 +73,10 @@ body {
     color: #A8415B;
 }
 
+.bg-red {
+    background-color: #A8415B;
+}
+
 .btn-css {
     background-color: #A8415B;
     border-radius: 100px;
