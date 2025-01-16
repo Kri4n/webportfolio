@@ -1,219 +1,225 @@
 * {
-    font-family: "Montserrat", sans-serif;
-    color: white;
-} 
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #51414F !important;
+  background-color: #51414f !important;
 }
 
 #landing {
-    padding-top: 2rem;
-    padding-bottom: 7rem;
-    width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+  width: 100%;
 }
 
 .h5 {
-    font-family: "Roboto Slab", sans-serif;
-    color: white !important;
-    text-shadow: 1px 2px 2px black;
-    
-    box-shadow: inset 0 0 0 0 	#A8415B;
-    padding: 0 .5rem;
-    padding-bottom: .4rem;
-    padding-top: .1rem;
-    margin: 0 -.25rem;
-    transition: color .7s ease-in-out, box-shadow .7s ease-in-out;
-    border-radius: 10px;
+  font-family: "Roboto Slab", sans-serif;
+  color: white !important;
+  text-shadow: 1px 2px 2px black;
+
+  box-shadow: inset 0 0 0 0 #a8415b;
+  padding: 0 0.5rem;
+  padding-bottom: 0.4rem;
+  padding-top: 0.1rem;
+  margin: 0 -0.25rem;
+  transition: color 0.7s ease-in-out, box-shadow 0.7s ease-in-out;
+  border-radius: 10px;
 }
 
 .h5:hover {
-    box-shadow: inset 200px 0px 0px 0px #A8415B;
-    border-radius: 10px;
+  box-shadow: inset 200px 0px 0px 0px #a8415b;
+  border-radius: 10px;
 }
 
 .navbar {
-    width: 100%;
-    z-index: 2;
-    border-bottom: 2px solid rgba(0,0,0,.15);
-    box-shadow: 5px 10px 18px rgba(0,0,0,.15);
-    backdrop-filter: blur(10px);
+  width: 100%;
+  z-index: 2;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
 }
 
 #main-nav li a {
-    border-radius: 15px;
-    box-shadow: inset 0 0 0 0 	#A8415B;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  border-radius: 15px;
+  box-shadow: inset 0 0 0 0 #a8415b;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 #main-nav li a:hover {
-    box-shadow: inset 0px 0px 0px 30px #A8415B;
+  box-shadow: inset 0px 0px 0px 30px #a8415b;
 }
 
 #main-nav li a.active {
-    box-shadow: inset 0px 0px 0px 30px #A8415B;
+  box-shadow: inset 0px 0px 0px 30px #a8415b;
 }
 
 .heading-frame {
-    border-radius: 300px;
-    background: url(./images/white.jpg) center;
-    background-size: cover;
-    padding: 2rem;
+  border-radius: 300px;
+  background: url(./images/white.jpg) center;
+  background-size: cover;
+  padding: 2rem;
 }
 
 .span {
-    color: #A8415B;
+  color: #a8415b;
 }
 
 .bg-red {
-    background-color: #A8415B;
+  background-color: #a8415b;
 }
 
 .btn-css {
-    background-color: #A8415B;
-    border-radius: 100px;
-    width: 200px;
-    height: 50px;
-    border: none;
+  background-color: #a8415b;
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  border: none;
 }
 
 .btn-css:hover {
-    background-color: white;
-    color: #A8415B;
+  background-color: white;
+  color: #a8415b;
 }
 
 #projects img {
-    transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 #projects img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .view-more-btn {
-    display: inline-block;
-    outline: 0;
-    border: 0;
-    cursor: pointer;
-    background-color: #A8415B;
-    border-radius: 4px;
-    padding: 8px 16px;
-    font-size: 16px;
-    border-bottom: 4px solid #862b42;
-    font-weight: 700;
-    line-height: 26px;
-    transition: .3s;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #a8415b;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-bottom: 4px solid #862b42;
+  font-weight: 700;
+  line-height: 26px;
+  transition: 0.3s;
 }
 
-.view-more-btn:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.view-more-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #about-2 img {
-    border-radius: 340px;
+  border-radius: 340px;
 }
 
 #about-2 h1 {
-    text-align: center;
-    color: #A8415B;
+  text-align: center;
+  color: #a8415b;
 }
 
 #tools img {
-    height: 70px;
-    width: 70px;
-    transition: all .2s ease;
+  height: 60px;
+  width: 60px;
+  transition: all 0.2s ease;
 }
 
 #contact-form {
-    background-color: #A8415B;
+  background-color: #a8415b;
 }
 
 #contact a:hover {
-    color:black !important;
-    text-decoration: underline !important;
+  color: black !important;
+  text-decoration: underline !important;
 }
 
 .social-logo {
-    width: 45px;
-    height: 45px;
-    transition: all .3s ease;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
 }
 
 .social-logo:hover {
-    padding: 5px;
+  padding: 5px;
 }
 
 .footer {
-    background-color: #A8415B;
+  background-color: #a8415b;
 }
-
-
 
 /* CSS Animations */
 
 .scale-in-center {
-    -webkit-animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
-    animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+  -webkit-animation: scale-in-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0.8s both;
+  animation: scale-in-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s both;
 }
 
 .fade-in-left {
-    -webkit-animation: fade-in-left 0.4s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    animation: fade-in-left 0.4s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  -webkit-animation: fade-in-left 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: fade-in-left 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 
 .fade-in {
-	-webkit-animation: fade-in 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) .8s both;
-	        animation: fade-in 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) .8s both;
+  -webkit-animation: fade-in 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
+  animation: fade-in 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
 }
 
 .fade-in-left-btn {
-    -webkit-animation: fade-in-left 0.4s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.4s both;
-    animation: fade-in-left 0.4s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.4s both;
+  -webkit-animation: fade-in-left 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s
+    both;
+  animation: fade-in-left 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s both;
 }
 
 .swing-in-top-fwd {
-    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+  -webkit-animation: swing-in-top-fwd 0.5s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
 }
 
 .swing-in-top-fwd-home {
-    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.1s both;
-    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.1s both;
+  -webkit-animation: swing-in-top-fwd 0.5s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s both;
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s
+    both;
 }
 
 .swing-in-top-fwd-projects {
-    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.2s both;
-    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.2s both;
+  -webkit-animation: swing-in-top-fwd 0.5s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s both;
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s
+    both;
 }
 
 .swing-in-top-fwd-about {
-    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.3s both;
-    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.3s both;
+  -webkit-animation: swing-in-top-fwd 0.5s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s both;
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s
+    both;
 }
 
 .swing-in-top-fwd-tools {
-    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.4s both;
-    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.4s both;
+  -webkit-animation: swing-in-top-fwd 0.5s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s both;
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s
+    both;
 }
 
 .swing-in-top-fwd-contact {
-    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.5s both;
-    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.5s both;
+  -webkit-animation: swing-in-top-fwd 0.5s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s both;
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s
+    both;
 }
 
-.heartbeat {
-    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-    animation: heartbeat 1.5s ease-in-out infinite both;
-}
-
-.rotate img:hover{
-    transform: rotateZ(-10deg);
-    transition: 1s ease;
+.rotate img:hover {
+  transform: rotateZ(-10deg);
+  transition: 1s ease;
 }
 
 /* ----------------------------------------------
@@ -229,34 +235,29 @@ body {
 * ----------------------------------------
 */
 @-webkit-keyframes scale-in-center {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-    }
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 @keyframes scale-in-center {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-    }
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
 }
-
-
-
-
-
 
 /* ----------------------------------------------
 * Generated by Animista on 2024-9-27 7:18:42
@@ -271,32 +272,29 @@ body {
 * ----------------------------------------
 */
 @-webkit-keyframes fade-in-left {
-    0% {
-        -webkit-transform: translateX(-50px);
-        transform: translateX(-50px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 @keyframes fade-in-left {
-    0% {
-        -webkit-transform: translateX(-50px);
-        transform: translateX(-50px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-
-
-
 
 /* ----------------------------------------------
 * Generated by Animista on 2024-9-27 7:37:19
@@ -311,136 +309,71 @@ body {
 * ----------------------------------------
 */
 @-webkit-keyframes swing-in-top-fwd {
-    0% {
-        -webkit-transform: rotateX(-100deg);
-        transform: rotateX(-100deg);
-        -webkit-transform-origin: top;
-        transform-origin: top;
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: rotateX(0deg);
-        transform: rotateX(0deg);
-        -webkit-transform-origin: top;
-        transform-origin: top;
-        opacity: 1;
-    }
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 1;
+  }
 }
 @keyframes swing-in-top-fwd {
-    0% {
-        -webkit-transform: rotateX(-100deg);
-        transform: rotateX(-100deg);
-        -webkit-transform-origin: top;
-        transform-origin: top;
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: rotateX(0deg);
-        transform: rotateX(0deg);
-        -webkit-transform-origin: top;
-        transform-origin: top;
-        opacity: 1;
-    }
-}
-
-/* ----------------------------------------------
-* Generated by Animista on 2024-9-27 8:42:32
-* Licensed under FreeBSD License.
-* See http://animista.net/license for more info. 
-* w: http://animista.net, t: @cssanimista
-* ---------------------------------------------- */
-
-/**
-* ----------------------------------------
-* animation heartbeat
-* ----------------------------------------
-*/
-@-webkit-keyframes heartbeat {
-    from {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transform-origin: center center;
-        transform-origin: center center;
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-    }
-    10% {
-        -webkit-transform: scale(0.91);
-        transform: scale(0.91);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-    }
-    17% {
-        -webkit-transform: scale(0.98);
-        transform: scale(0.98);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-    }
-    33% {
-        -webkit-transform: scale(0.87);
-        transform: scale(0.87);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-    }
-    45% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-    }
-}
-@keyframes heartbeat {
-    from {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transform-origin: center center;
-        transform-origin: center center;
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-    }
-    10% {
-        -webkit-transform: scale(0.91);
-        transform: scale(0.91);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-    }
-    17% {
-        -webkit-transform: scale(0.98);
-        transform: scale(0.98);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-    }
-    33% {
-        -webkit-transform: scale(0.87);
-        transform: scale(0.87);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-    }
-    45% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-    }
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 1;
+  }
 }
 
 .wave {
-    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 1.5s;        /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  /* Never stop waving :) */
-    transform-origin: 100% 100%;       /* Pivot around the bottom-left palm */
-    display: inline-block;
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 1.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 100% 100%; /* Pivot around the bottom-left palm */
+  display: inline-block;
 }
 
 @keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-    10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-    20% { transform: rotate(-8.0deg) }
-    30% { transform: rotate(14.0deg) }
-    40% { transform: rotate(-4.0deg) }
-    50% { transform: rotate(10.0deg) }
-    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-    100% { transform: rotate( 0.0deg) }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /* ----------------------------------------------
@@ -455,20 +388,19 @@ body {
  * animation fade-in
  * ----------------------------------------
  */
- @-webkit-keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
   }
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
-  
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
