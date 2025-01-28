@@ -1,403 +1,721 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="index.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
     <!-- CSS Animations Style Link -->
-    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
-    
+    <link
+      href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css"
+      rel="stylesheet"
+    />
+
     <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Krian • Full-Stack Web Developer</title>
-    <link rel="icon" type="image/x-icon" href="./images/mylogo.jpg">
-</head>
-<body>
-    
+    <link rel="icon" type="image/x-icon" href="./images/mylogo.jpg" />
+  </head>
+  <body>
     <!-- Navbar Start -->
-    <nav class="navbar position-fixed navbar-expand-md navbar-dark swing-in-top-fwd">
-        
-        <div class="container-xxl">
-            
-            <a class="text-decoration-none" href="index.html">
-                <span class="h5">Krian</span>
-            </a>
-            
-            <!-- toggle button for mobile nav -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-                <ul class="navbar-nav align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link text-white swing-in-top-fwd-home" href="#landing">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white swing-in-top-fwd-projects" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white swing-in-top-fwd-about" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white swing-in-top-fwd-tools" href="#tools">Tools</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white swing-in-top-fwd-contact" href="#contact">Contact</a>
-                    </li>
-                </ul>      
-            </div>
+    <nav
+      class="navbar position-fixed navbar-expand-md navbar-dark swing-in-top-fwd"
+    >
+      <div class="container-xxl">
+        <a class="text-decoration-none" href="index.html">
+          <span class="h5">Krian</span>
+        </a>
+
+        <!-- toggle button for mobile nav -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar links -->
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white swing-in-top-fwd-home"
+                href="#landing"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white swing-in-top-fwd-projects"
+                href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white swing-in-top-fwd-about"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white swing-in-top-fwd-tools"
+                href="#tools"
+                >Tools</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white swing-in-top-fwd-contact"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- End -->
 
     <!-- Landing Section Start -->
     <section id="landing">
-        <div class="container"> 
-            <div class="row d-flex flex-sm-column flex-md-row align-items-center">
-                <div class="col-12 col-sm-12 order-sm-1 col-md-6 order-md-2 col-lg-5 mt-0 pt-0 mt-md-5 pt-md-5 mt-sm-5 mt-5">
-                    <img class="heading-frame img-fluid scale-in-center" src="./images/me.jpg" alt="me.jpg">
-                </div>
-                <div class="col-12 col-sm-12 order-sm-2 col-md-6 order-md-1 col-lg-7 mt-md-5 pt-md-5 mt-sm-5 pt-sm-5 mt-lg-5 pt-lg-5 pt-5">
-                    
-                    <h4 class="fade-in-left">Hello <span class="wave">👋🏻</span> I am <span class="fw-bold">Krian</span> , I'm a <span class="fw-light fst-italic">Full - Stack Web Developer</span>.</h4>
-                    
-                    <p class="lead fade-in-left">A passionate filipino web developer with a degree in Bachelor of Science in Information Technology who has also hands on experience during a coding bootcamp.</p>
+      <div class="container">
+        <div class="row d-flex flex-sm-column flex-md-row align-items-center">
+          <div
+            class="col-12 col-sm-12 order-sm-1 col-md-6 order-md-2 col-lg-5 mt-0 pt-0 mt-md-5 pt-md-5 mt-sm-5 mt-5"
+          >
+            <img
+              class="heading-frame img-fluid scale-in-center"
+              src="./images/me.jpg"
+              alt="me.jpg"
+            />
+          </div>
+          <div
+            class="col-12 col-sm-12 order-sm-2 col-md-6 order-md-1 col-lg-7 mt-md-5 pt-md-5 mt-sm-5 pt-sm-5 mt-lg-5 pt-lg-5 pt-5"
+          >
+            <h4 class="fade-in-left">
+              Hello <span class="wave">👋🏻</span> I am
+              <span class="fw-bold">Krian</span> , I'm a
+              <span class="fw-light fst-italic">Full - Stack Web Developer</span
+              >.
+            </h4>
 
-                    <div class="d-flex gap-3 ps-3 pb-3">
-                    
-                        <a class="fade-in" href="https://github.com/Kri4n" target="_blank">
-                            <img src="./images/github.png" alt="github.png" class="social-logo">
-                        </a>
-                        
-                        <a class="fade-in" href="https://www.linkedin.com/in/krian-lloyd-lerry-551a19324/" target="_blank">
-                            <img src="./images/linkedin.png" alt="linkedin.png" class="social-logo">
-                        </a>
-                        
-                        <a class="fade-in" href="https://www.facebook.com/Kri4n" target="_blank">
-                            <img src="./images/facebook.png" alt="facebook.png" class="social-logo">
-                        </a>
-                        
-                    </div>
-                    
-                    <a href="./file/Updated_Resume_Lerry.pdf" target="_blank"><button class="btn-css fw-bold fade-in-left-btn">View Resume</button></a>
-                </div>
+            <p class="lead fade-in-left">
+              A passionate filipino web developer with a degree in Bachelor of
+              Science in Information Technology who has also hands on experience
+              during a coding bootcamp.
+            </p>
+
+            <div class="d-flex gap-3 ps-3 pb-3">
+              <a
+                class="fade-in"
+                href="https://github.com/Kri4n"
+                target="_blank"
+              >
+                <img
+                  src="./images/github.png"
+                  alt="github.png"
+                  class="social-logo"
+                />
+              </a>
+
+              <a
+                class="fade-in"
+                href="https://www.linkedin.com/in/krian-lloyd-lerry-551a19324/"
+                target="_blank"
+              >
+                <img
+                  src="./images/linkedin.png"
+                  alt="linkedin.png"
+                  class="social-logo"
+                />
+              </a>
+
+              <a
+                class="fade-in"
+                href="https://www.facebook.com/Kri4n"
+                target="_blank"
+              >
+                <img
+                  src="./images/facebook.png"
+                  alt="facebook.png"
+                  class="social-logo"
+                />
+              </a>
             </div>
+
+            <a href="./file/Updated_Resume_Lerry.pdf" target="_blank"
+              ><button class="btn-css fw-bold fade-in-left-btn">
+                View Resume
+              </button></a
+            >
+          </div>
         </div>
+      </div>
     </section>
     <!-- Landing Section End -->
-    
+
     <!-- Projects Section Start -->
     <section id="projects" class="container-fluid mt-5 pt-5">
-        <h1 class="text-center display-2 fw-bolder" data-aos="fade-up" data-aos-offset="250">Projects</h1>
-        
-        <div class="container mt-5 pt-5 d-flex flex-column flex-sm-column flex-md-row flex-lg-row gap-2">
-            
-            <div class="card border-0 shadow-lg col-md-5" data-aos="zoom-in" data-aos-offset="200">
-                <a href="https://github.com/Kri4n/WriteScape" target="_blank">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid rounded-top" src="./images/writescape.png" alt="dashboard.png">
-                    </div>
-                </a>
-                <div class="card-body rounded-bottom bg-red">
-                    <h5 class="fw-bold text-white">WriteScape</h5>
-                    <p class="lead text-white">A full stack Blog Web App.</p>
-                    <button class="btn btn-outline-light mt-lg-0 mt-2">MongoDB</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-2">ExpressJS</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">React</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">NodeJS</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">Tailwind</button>
-                </div>
-            </div>
+      <h1
+        class="text-center display-2 fw-bolder"
+        data-aos="fade-up"
+        data-aos-offset="250"
+      >
+        Projects
+      </h1>
 
-            <div data-aos="zoom-in" data-aos-offset="330" class="card border-0 shadow-lg col-md-7">
-                <iframe class="rounded-top" height="400" src="https://www.youtube.com/embed/T2Fc4zlko0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy">
-                </iframe>
-                <div class="card-body rounded-bottom bg-red">
-                    <button class="btn btn-dark"><a class="text-decoration-none text-white" target="_blank" href="https://writescape.vercel.app/">Live Demo</a></button>
-                </div>
+      <div
+        class="container mt-5 pt-5 d-flex flex-column flex-sm-column flex-md-row flex-lg-row gap-2"
+      >
+        <div
+          class="card border-0 shadow-lg col-md-5"
+          data-aos="zoom-in"
+          data-aos-offset="200"
+        >
+          <a href="https://github.com/Kri4n/WriteScape" target="_blank">
+            <div class="overflow-hidden">
+              <img
+                class="img-fluid rounded-top"
+                src="./images/writescape.png"
+                alt="dashboard.png"
+              />
             </div>
-        </div>
-        
-        <div class="container pt-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row gap-2">
-
-            <div class="card border-0 shadow-lg col-md-7 order-2 order-md-1 order-lg-1" data-aos="zoom-in" data-aos-offset="330">
-                <iframe class="rounded-top" height="400" src="https://www.youtube.com/embed/HCypPD2TtvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy">
-                </iframe>
-                <div class="card-body rounded-bottom bg-red">
-                    <button class="btn btn-dark"><a class="text-decoration-none text-white" target="_blank" href="https://fit-meter.vercel.app/">Live Demo</a> </button>
-                </div>
-            </div>
-            
-            <div class="card border-0 shadow-lg col-md-5 order-1 order-md-2 order-lg-2" data-aos="zoom-in" data-aos-offset="200">
-                <a href="https://github.com/Kri4n/FitMeter" target="_blank">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid rounded-top"  src="./images/fit-meter.png" alt="PesoPay.png">
-                    </div>
-                </a>
-                <div class="card-body rounded-bottom bg-red">
-                    <h5 class="fw-bold text-white">FitMeter</h5>
-                    <p class="lead text-white">A simple fitness tracker web application.</p>
-                    <button class="btn btn-outline-light mt-lg-0 mt-2">MongoDB</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-2">ExpressJS</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">React</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">NodeJS</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">Tailwind</button>
-                </div>
-            </div>
-           
-        </div>
-        
-        
-        <div class="container pt-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row gap-2">
-            
-            <div class="card border-0 shadow-lg col-md-5" data-aos="zoom-in" data-aos-offset="200">
-                <a href="https://github.com/Kri4n/E-Commerce-Fullstack" target="_blank">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid rounded-top"  src="./images/ec1.png" alt="ec1.png">
-                    </div>
-                </a>
-                <div class="card-body rounded-bottom bg-red">
-                    <h5 class="fw-bold text-white">E-Commerce Full Stack</h5>
-                    <p class="lead text-white">A fully functional ecommerce website with user authentication (JWT) and password hashing (Bcrypt) made with MERN stack.</p>
-                    <button class="btn btn-outline-light mt-lg-0 mt-2">MongoDB</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-2">ExpressJS</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">React</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">NodeJS</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">Bootstrap</button>
-                </div>
-            </div>
-            
-            <div data-aos="zoom-in" data-aos-offset="330" class="card border-0 shadow-lg col-md-7">
-                <iframe class="rounded-top" height="400" src="https://www.youtube.com/embed/4AXPghh3JF4?si=8abql5HhFrAfY15P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy">
-                </iframe>
-                <div class="card-body rounded-bottom bg-red">
-                    <button class="btn btn-dark"><a class="text-decoration-none text-white" target="_blank" href="http://zuitt-bootcamp-prod-482-8067-lerry.s3-website.us-east-1.amazonaws.com/">Live Demo</a></button>
-                </div>
-            </div>
+          </a>
+          <div class="card-body rounded-bottom bg-red">
+            <h5 class="fw-bold text-white">WriteScape</h5>
+            <p class="lead text-white">A full stack Blog Web App.</p>
+            <button class="btn btn-outline-light mt-lg-0 mt-2">MongoDB</button>
+            <button class="btn btn-outline-light mt-lg-0 mt-2">
+              ExpressJS
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              React
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              NodeJS
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              Tailwind
+            </button>
+          </div>
         </div>
 
-        <div class="container pt-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row gap-2">
-            
-            
+        <div
+          data-aos="zoom-in"
+          data-aos-offset="330"
+          class="card border-0 shadow-lg col-md-7"
+        >
+          <iframe
+            class="rounded-top"
+            height="400"
+            src="https://www.youtube.com/embed/T2Fc4zlko0o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            loading="lazy"
+          >
+          </iframe>
+          <div class="card-body rounded-bottom bg-red">
+            <button class="btn btn-dark">
+              <a
+                class="text-decoration-none text-white"
+                target="_blank"
+                href="https://writescape.vercel.app/"
+                >Live Demo</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
 
-            <div data-aos="zoom-in" data-aos-offset="330" class="card border-0 shadow-lg col-md-7">
-                <iframe class="rounded-top" height="400" src="https://www.youtube.com/embed/FPHVL2vmi9Y?si=rkcMXsNNtGncukPm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy">
-                </iframe>
-                <div class="card-body rounded-bottom bg-red">
-                    <button class="btn btn-dark"><a class="text-decoration-none text-white" target="_blank" href="https://www.youtube.com/watch?v=FPHVL2vmi9Y">Watch Demo</a></button>
-                </div>
-            </div>
-
-
-            <div class="card border-0 shadow-lg col-md-5" data-aos="zoom-in" data-aos-offset="200">
-                <a href="https://github.com/Kri4n/FindThere" target="_blank">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid rounded-top" src="./images/p2.png" alt="dashboard.png">
-                    </div>
-                </a>
-                <div class="card-body rounded-bottom bg-red">
-                    <h5 class="fw-bold text-white">FindThere</h5>
-                    <p class="lead text-white">A full stack lost and found / lost item finder web application.</p>
-                    <button class="btn btn-outline-light">JavaScript</button>
-                    <button class="btn btn-outline-light">PHP</button>
-                    <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-sm-0">MySQL</button>
-                </div>
-            </div>
+      <div
+        class="container pt-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row gap-2"
+      >
+        <div
+          class="card border-0 shadow-lg col-md-7 order-2 order-md-1 order-lg-1"
+          data-aos="zoom-in"
+          data-aos-offset="330"
+        >
+          <iframe
+            class="rounded-top"
+            height="400"
+            src="https://www.youtube.com/embed/HCypPD2TtvQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            loading="lazy"
+          >
+          </iframe>
+          <div class="card-body rounded-bottom bg-red">
+            <button class="btn btn-dark">
+              <a
+                class="text-decoration-none text-white"
+                target="_blank"
+                href="https://fit-meter.vercel.app/"
+                >Live Demo</a
+              >
+            </button>
+          </div>
         </div>
 
-        <div data-aos="fade-right" data-aos-offset="250" class="d-flex justify-content-center pt-5">
-            <a class="text-decoration-none text-white" href="https://github.com/Kri4n?tab=repositories" target="_blank">
-                <button class="view-more-btn px-5 py-3">More Projects</button>
-            </a>
-        </div>  
-        
+        <div
+          class="card border-0 shadow-lg col-md-5 order-1 order-md-2 order-lg-2"
+          data-aos="zoom-in"
+          data-aos-offset="200"
+        >
+          <a href="https://github.com/Kri4n/FitMeter" target="_blank">
+            <div class="overflow-hidden">
+              <img
+                class="img-fluid rounded-top"
+                src="./images/fit-meter.png"
+                alt="PesoPay.png"
+              />
+            </div>
+          </a>
+          <div class="card-body rounded-bottom bg-red">
+            <h5 class="fw-bold text-white">FitMeter</h5>
+            <p class="lead text-white">
+              A simple fitness tracker web application.
+            </p>
+            <button class="btn btn-outline-light mt-lg-0 mt-2">MongoDB</button>
+            <button class="btn btn-outline-light mt-lg-0 mt-2">
+              ExpressJS
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              React
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              NodeJS
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              Tailwind
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container pt-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row gap-2"
+      >
+        <div
+          class="card border-0 shadow-lg col-md-5"
+          data-aos="zoom-in"
+          data-aos-offset="200"
+        >
+          <a
+            href="https://github.com/Kri4n/E-Commerce-Fullstack"
+            target="_blank"
+          >
+            <div class="overflow-hidden">
+              <img
+                class="img-fluid rounded-top"
+                src="./images/ec1.png"
+                alt="ec1.png"
+              />
+            </div>
+          </a>
+          <div class="card-body rounded-bottom bg-red">
+            <h5 class="fw-bold text-white">E-Commerce Full Stack</h5>
+            <p class="lead text-white">
+              A fully functional ecommerce website with user authentication
+              (JWT) and password hashing (Bcrypt) made with MERN stack.
+            </p>
+            <button class="btn btn-outline-light mt-lg-0 mt-2">MongoDB</button>
+            <button class="btn btn-outline-light mt-lg-0 mt-2">
+              ExpressJS
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              React
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              NodeJS
+            </button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-2">
+              Bootstrap
+            </button>
+          </div>
+        </div>
+
+        <div
+          data-aos="zoom-in"
+          data-aos-offset="330"
+          class="card border-0 shadow-lg col-md-7"
+        >
+          <iframe
+            class="rounded-top"
+            height="400"
+            src="https://www.youtube.com/embed/4AXPghh3JF4?si=8abql5HhFrAfY15P"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            loading="lazy"
+          >
+          </iframe>
+          <div class="card-body rounded-bottom bg-red">
+            <button class="btn btn-dark">
+              <a
+                class="text-decoration-none text-white"
+                target="_blank"
+                href="http://zuitt-bootcamp-prod-482-8067-lerry.s3-website.us-east-1.amazonaws.com/"
+                >Live Demo</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container pt-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row gap-2"
+      >
+        <div
+          data-aos="zoom-in"
+          data-aos-offset="330"
+          class="card border-0 shadow-lg col-md-7"
+        >
+          <iframe
+            class="rounded-top"
+            height="400"
+            src="https://www.youtube.com/embed/FPHVL2vmi9Y?si=rkcMXsNNtGncukPm"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            loading="lazy"
+          >
+          </iframe>
+          <div class="card-body rounded-bottom bg-red">
+            <button class="btn btn-dark">
+              <a
+                class="text-decoration-none text-white"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=FPHVL2vmi9Y"
+                >Watch Demo</a
+              >
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="card border-0 shadow-lg col-md-5"
+          data-aos="zoom-in"
+          data-aos-offset="200"
+        >
+          <a href="https://github.com/Kri4n/FindThere" target="_blank">
+            <div class="overflow-hidden">
+              <img
+                class="img-fluid rounded-top"
+                src="./images/p2.png"
+                alt="dashboard.png"
+              />
+            </div>
+          </a>
+          <div class="card-body rounded-bottom bg-red">
+            <h5 class="fw-bold text-white">FindThere</h5>
+            <p class="lead text-white">
+              A full stack lost and found / lost item finder web application. Deployment currently in progress.
+            </p>
+            <button class="btn btn-outline-light">JavaScript</button>
+            <button class="btn btn-outline-light">PHP</button>
+            <button class="btn btn-outline-light mt-lg-0 mt-md-2 mt-sm-0">
+              MySQL
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        data-aos="fade-right"
+        data-aos-offset="250"
+        class="d-flex justify-content-center pt-5"
+      >
+        <a
+          class="text-decoration-none text-white"
+          href="https://github.com/Kri4n?tab=repositories"
+          target="_blank"
+        >
+          <button class="view-more-btn px-5 py-3">More Projects</button>
+        </a>
+      </div>
     </section>
     <!-- Projects Section End -->
-    
-    
+
     <!-- About Me Section Start -->
     <section id="about" class="container-fluid mt-5 pt-5">
-        <div class="container">
-            <h1 class="display-2 fw-bolder text-center" data-aos="fade-up" data-aos-offset="180">About Me</h1>
-            
-            <div id="about-2" class="container mt-5 pt-5">
-                <div class="row">
-                    <div id="likes" class="col-12 order-6 col-sm-12 order-sm-1 col-md-6 order-md-6 col-xl-4 order-xl-1 col-lg-6 order-lg-6">
-                        <h1 class="fw-bold" data-aos="zoom-in" data-aos-offset="190">Likes</h1>
-                        <img src="./images/hobbies.gif" data-aos="zoom-in" data-aos-offset="190" class="img-fluid" alt="hobbies.jpg">
-                    </div>
-                    <div id="strengths" class="col-12 order-3 col-sm-12 order-sm-3 col-md-6 order-md-3 col-xl-4 order-xl-2 py-xl-0 col-lg-6 order-lg-3 my-lg-0">
-                        <h1 class="fw-bold" data-aos="zoom-in" data-aos-offset="240">Strengths</h1>
-                        <img src="./images/strength.gif" data-aos="zoom-in" data-aos-offset="240" class="img-fluid" alt="strength.jpg">
-                    </div>
-                    <div id="goals" class="col-12 order-4 col-sm-12 order-sm-5 col-md-6 order-md-4 col-xl-4 order-xl-3 col-lg-6 order-lg-4">
-                        <h1 class="fw-bold" data-aos="zoom-in" data-aos-offset="290">Goals</h1>
-                        <img src="./images/goals.gif" data-aos="zoom-in" data-aos-offset="290" class="img-fluid" alt="goals.gif">
-                        
-                    </div>
-                    <div class="col-12 order-6 col-sm-12 order-sm-2 col-md-6 order-md-1 col-xl-4 order-xl-4 col-lg-6 order-lg-1">
-                        <ul class="lead pt-3 pt-lg-5 pt-md-5" data-aos="zoom-in">
-                            <li>Video Games</li>
-                            <li>Gym</li>
-                            <li>Movies</li>
-                            <li>Music</li>
-                            <li>Self Growth</li>
-                            <li>Nutrition</li>
-                            <li>Meditation</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 order-3 col-sm-12 order-sm-4 col-md-6 order-md-2 col-xl-4 order-xl-5 col-lg-6 order-lg-2">
-                        <p class="lead pt-3 pt-lg-5 pt-md-5" data-aos="zoom-in">
-                            My strengths lie in my persistent and patient nature. I approach challenges with determination, refusing to be easily deterred by obstacles. My patience serves as a valuable asset, enabling me to work through intricate problems methodically and maintain composure under pressure.
-                        </p>
-                    </div>
-                    <div class="col-12 order-5 col-sm-12 order-sm-6 col-md-6 order-md-5 col-xl-4 order-xl-6 col-lg-6 order-lg-5">
-                        <p class="lead pt-3 pt-lg-5 pt-md-5" data-aos="zoom-in">
-                            I aim to continuously grow my skills in front-end and back-end development. My goal is to collaborate on innovative projects that push boundaries in design and functionality. Always eager to learn, I thrive in solving complex challenges through clean, efficient code.
-                        </p>
-                    </div>
-                </div>
-                
+      <div class="container">
+        <h1
+          class="display-2 fw-bolder text-center"
+          data-aos="fade-up"
+          data-aos-offset="180"
+        >
+          About Me
+        </h1>
+
+        <div id="about-2" class="container mt-5 pt-5">
+          <div class="row">
+            <div
+              id="likes"
+              class="col-12 order-6 col-sm-12 order-sm-1 col-md-6 order-md-6 col-xl-4 order-xl-1 col-lg-6 order-lg-6"
+            >
+              <h1 class="fw-bold" data-aos="zoom-in" data-aos-offset="190">
+                Likes
+              </h1>
+              <img
+                src="./images/hobbies.gif"
+                data-aos="zoom-in"
+                data-aos-offset="190"
+                class="img-fluid"
+                alt="hobbies.jpg"
+              />
             </div>
+            <div
+              id="strengths"
+              class="col-12 order-3 col-sm-12 order-sm-3 col-md-6 order-md-3 col-xl-4 order-xl-2 py-xl-0 col-lg-6 order-lg-3 my-lg-0"
+            >
+              <h1 class="fw-bold" data-aos="zoom-in" data-aos-offset="240">
+                Strengths
+              </h1>
+              <img
+                src="./images/strength.gif"
+                data-aos="zoom-in"
+                data-aos-offset="240"
+                class="img-fluid"
+                alt="strength.jpg"
+              />
+            </div>
+            <div
+              id="goals"
+              class="col-12 order-4 col-sm-12 order-sm-5 col-md-6 order-md-4 col-xl-4 order-xl-3 col-lg-6 order-lg-4"
+            >
+              <h1 class="fw-bold" data-aos="zoom-in" data-aos-offset="290">
+                Goals
+              </h1>
+              <img
+                src="./images/goals.gif"
+                data-aos="zoom-in"
+                data-aos-offset="290"
+                class="img-fluid"
+                alt="goals.gif"
+              />
+            </div>
+            <div
+              class="col-12 order-6 col-sm-12 order-sm-2 col-md-6 order-md-1 col-xl-4 order-xl-4 col-lg-6 order-lg-1"
+            >
+              <ul class="lead pt-3 pt-lg-5 pt-md-5" data-aos="zoom-in">
+                <li>Video Games</li>
+                <li>Gym</li>
+                <li>Movies</li>
+                <li>Music</li>
+                <li>Self Growth</li>
+                <li>Nutrition</li>
+                <li>Meditation</li>
+              </ul>
+            </div>
+            <div
+              class="col-12 order-3 col-sm-12 order-sm-4 col-md-6 order-md-2 col-xl-4 order-xl-5 col-lg-6 order-lg-2"
+            >
+              <p class="lead pt-3 pt-lg-5 pt-md-5" data-aos="zoom-in">
+                My strengths lie in my persistent and patient nature. I approach
+                challenges with determination, refusing to be easily deterred by
+                obstacles. My patience serves as a valuable asset, enabling me
+                to work through intricate problems methodically and maintain
+                composure under pressure.
+              </p>
+            </div>
+            <div
+              class="col-12 order-5 col-sm-12 order-sm-6 col-md-6 order-md-5 col-xl-4 order-xl-6 col-lg-6 order-lg-5"
+            >
+              <p class="lead pt-3 pt-lg-5 pt-md-5" data-aos="zoom-in">
+                I aim to continuously grow my skills in front-end and back-end
+                development. My goal is to collaborate on innovative projects
+                that push boundaries in design and functionality. Always eager
+                to learn, I thrive in solving complex challenges through clean,
+                efficient code.
+              </p>
+            </div>
+          </div>
         </div>
-        
+      </div>
     </section>
     <!-- About Me End -->
-    
-    
+
     <!-- Tools Section Start -->
     <section id="tools" class="container-xxl text-center mt-5 pt-5">
-        <h1 class="display-2 fw-bolder" data-aos="fade-up" data-aos-offset="180">Tools</h1>
-        <div class="d-flex pb-5 flex-md-row flex-column gap-5 justify-content-center align-items-center mt-5 pt-5">
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="300" >
-                <img src="./images/html.png" alt="html.png">
-                <strong class="d-block pt-3">HTML</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="300" >
-                <img src="./images/css.png" alt="css.png">
-                <strong class="d-block pt-3">CSS</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
-                <img src="./images/js.png" alt="js.png">
-                <strong class="d-block pt-3">JAVASCRIPT</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
-                <img src="./images/mysql.png" alt="mysql.png">
-                <strong class="d-block pt-3">MYSQL</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
-                <img src="./images/php.png" alt="php.png">
-                <strong class="d-block pt-3">PHP</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
-                <img src="./images/postman.png" alt="postman.png">
-                <strong class="d-block pt-3">POSTMAN</strong>
-            </div>
+      <h1 class="display-2 fw-bolder" data-aos="fade-up" data-aos-offset="180">
+        Tools
+      </h1>
+      <div
+        class="d-flex pb-5 flex-md-row flex-column gap-5 justify-content-center align-items-center mt-5 pt-5"
+      >
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
+          <img src="./images/html.png" alt="html.png" />
+          <strong class="d-block pt-3">HTML</strong>
         </div>
-        <div class="d-flex pb-5 flex-md-row flex-column gap-5 justify-content-center align-items-center">
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
-                <img src="./images/mongodb.png" alt="mongodb.png">
-                <strong class="d-block pt-3">MONGODB</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
-                <img src="./images/express.png" alt="express.png">
-                <strong class="d-block pt-3">EXPRESS.JS</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
-                <img src="./images/nodejs.png" alt="nodejs.png">
-                <strong class="d-block pt-3">NODE.JS</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
-                <img src="./images/react.png" alt="react.png">
-                <strong class="d-block pt-3">REACT</strong>
-            </div> 
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
-                <img src="./images/figma.png" alt="figma.png">
-                <strong class="d-block pt-3">FIGMA</strong>
-            </div> 
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
-                <img src="./images/git.png" alt="git.png">
-                <strong class="d-block pt-3">GIT</strong>
-            </div> 
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
+          <img src="./images/css.png" alt="css.png" />
+          <strong class="d-block pt-3">CSS</strong>
         </div>
-        <div class="d-flex pb-5 flex-md-row flex-column gap-5 justify-content-center align-items-center">
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="200">
-                <img src="./images/tailwind.png" alt="mongodb.png">
-                <strong class="d-block pt-3">TAILWIND</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="200">
-                <img src="./images/bootstrap.png" alt="express.png">
-                <strong class="d-block pt-3">BOOTSTRAP 5</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="200">
-                <img src="./images/trello.png" alt="nodejs.png">
-                <strong class="d-block pt-3">TRELLO</strong>
-            </div>
-            <div class="rotate" data-aos="zoom-in" data-aos-offset="200">
-                <img src="./images/vscode.png" alt="react.png">
-                <strong class="d-block pt-3">VS CODE</strong>
-            </div> 
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
+          <img src="./images/js.png" alt="js.png" />
+          <strong class="d-block pt-3">JAVASCRIPT</strong>
         </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
+          <img src="./images/mysql.png" alt="mysql.png" />
+          <strong class="d-block pt-3">MYSQL</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
+          <img src="./images/php.png" alt="php.png" />
+          <strong class="d-block pt-3">PHP</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="300">
+          <img src="./images/postman.png" alt="postman.png" />
+          <strong class="d-block pt-3">POSTMAN</strong>
+        </div>
+      </div>
+      <div
+        class="d-flex pb-5 flex-md-row flex-column gap-5 justify-content-center align-items-center"
+      >
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
+          <img src="./images/mongodb.png" alt="mongodb.png" />
+          <strong class="d-block pt-3">MONGODB</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
+          <img src="./images/express.png" alt="express.png" />
+          <strong class="d-block pt-3">EXPRESS.JS</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
+          <img src="./images/nodejs.png" alt="nodejs.png" />
+          <strong class="d-block pt-3">NODE.JS</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
+          <img src="./images/react.png" alt="react.png" />
+          <strong class="d-block pt-3">REACT</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
+          <img src="./images/figma.png" alt="figma.png" />
+          <strong class="d-block pt-3">FIGMA</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="250">
+          <img src="./images/git.png" alt="git.png" />
+          <strong class="d-block pt-3">GIT</strong>
+        </div>
+      </div>
+      <div
+        class="d-flex pb-5 flex-md-row flex-column gap-5 justify-content-center align-items-center"
+      >
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="200">
+          <img src="./images/tailwind.png" alt="mongodb.png" />
+          <strong class="d-block pt-3">TAILWIND</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="200">
+          <img src="./images/bootstrap.png" alt="express.png" />
+          <strong class="d-block pt-3">BOOTSTRAP 5</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="200">
+          <img src="./images/trello.png" alt="nodejs.png" />
+          <strong class="d-block pt-3">TRELLO</strong>
+        </div>
+        <div class="rotate" data-aos="zoom-in" data-aos-offset="200">
+          <img src="./images/vscode.png" alt="react.png" />
+          <strong class="d-block pt-3">VS CODE</strong>
+        </div>
+      </div>
     </section>
     <!-- Tools Section End -->
-    
-    
+
     <!-- Contact Section Start -->
     <section id="contact" class="container text-center mt-5 pt-5 mb-5 pb-5">
-        
-        <h1 class="display-2 fw-bolder">Contact Me</h1>
-        <p class="lead">Feel free to reach out for any inquiries, opportunities, or collaborations. I’d love to hear from you!</p>
-        
-        <div class="row d-flex justify-content-center pt-2">
-            <div id="contact-form" class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-5 rounded p-5 mb-3">
-                <form class="d-flex flex-column text-start lead" action="">
-                    <label for="name">Name</label>
-                    <input type="text" class="text-dark" name="name" id="name">
-                    <label for="email" class="mt-3">Email</label>
-                    <input type="email" class="text-dark" name="email" id="email">
-                    <label for="message" class="mt-3">Message</label>
-                    <textarea name="message" class="text-dark pb-5" id="message"></textarea>
-                    <button class="btn btn-light mt-5 w-50">Submit</button>
-                </form>
-            </div>
-        </div> 
+      <h1 class="display-2 fw-bolder">Contact Me</h1>
+      <p class="lead">
+        Feel free to reach out for any inquiries, opportunities, or
+        collaborations. I’d love to hear from you!
+      </p>
+
+      <div class="row d-flex justify-content-center pt-2">
+        <div
+          id="contact-form"
+          class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-5 rounded p-5 mb-3"
+        >
+          <form class="d-flex flex-column text-start lead" action="">
+            <label for="name">Name</label>
+            <input type="text" class="text-dark" name="name" id="name" />
+            <label for="email" class="mt-3">Email</label>
+            <input type="email" class="text-dark" name="email" id="email" />
+            <label for="message" class="mt-3">Message</label>
+            <textarea
+              name="message"
+              class="text-dark pb-5"
+              id="message"
+            ></textarea>
+            <button class="btn btn-light mt-5 w-50">Submit</button>
+          </form>
+        </div>
+      </div>
     </section>
     <!-- Contact Section End -->
 
-    
     <footer class="footer text-center px-5 py-5">
-            <a class="text-white" href="https://mail.google.com/mail/u/0/?fs=1&to=lerrylloyd15@gmail.com&su=&body=&tf=cm" target="_blank">lerrylloyd15@gmail.com</a>
-            <p>+639275341076</p>
-            Copyright © 2025 Krian Lloyd Lerry | All Rights Reserved.
+      <a
+        class="text-white"
+        href="https://mail.google.com/mail/u/0/?fs=1&to=lerrylloyd15@gmail.com&su=&body=&tf=cm"
+        target="_blank"
+        >lerrylloyd15@gmail.com</a
+      >
+      <p>+639275341076</p>
+      Copyright © 2025 Krian Lloyd Lerry | All Rights Reserved.
     </footer>
-    
+
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
-    
+
     <!-- AOS Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
-    <script>AOS.init();</script>
-    
+
+    <script>
+      AOS.init();
+    </script>
+
     <script src="index.js"></script>
 
     <!-- Vanta.js Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
-</body>
+  </body>
 </html>
